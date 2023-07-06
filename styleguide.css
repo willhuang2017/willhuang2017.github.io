@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin: 0 5%;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.font-panel {
+  display: inline-block;
+  width: 45%;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 45%;
+}
+
+.yoimiya {
+  background-color: #cc703a;
+}
+
+.ganyu {
+  background-color: #b5c5d7;
+}
+
+.hu-tao {
+  background-color: #7a4748;
+}
+
+.sucrose {
+  background-color: #d2edcb;
+}
+
+.color-hex, .color-panel {
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+.noto-sans {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.bacasime-antique {
+  font-family: 'Raleway', sans-serif;
+}
+
+.bacasime-antique {
+  font-family: 'Bacasime Antique', sans-serif;
+}
+
+.times-new-roman {
+  font-family: times-new-roman;
+}
+
+.font-label {
+  text-decoration: underline;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italics {
+  font-style: italic;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
