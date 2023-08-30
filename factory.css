@@ -1,0 +1,74 @@
+
+
+body {
+  text-align: center;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+
+/* Header Section */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10%;
+}
+
+/* Mission Section */
+#mission {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+#mission .content {
+  background-image: url("factory/fontaine.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* Customer Section */
+#products .content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#products .customer {
+  width: 200px;
+}
+
+#products .customer img {
+  height: 300px;
+  width: 175px;
+}
+
+/* Team Section */
+
+#harbinger-container .fatui {
+  padding: 20px;
+  background-image: url("factory/delusion.png");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#harbinger-container .fatui .member {
+  width: 250px;
+  color: white;
+}
+
+#harbinger-container .fatui .member img{
+  height: 300px;
+  width: 175px;
+}
